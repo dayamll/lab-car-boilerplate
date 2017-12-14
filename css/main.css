@@ -1,4 +1,5 @@
 /* Los estilos de tu proyecto */
+
 * {
   padding: 0;
   margin: 0;
@@ -13,8 +14,20 @@ a {
   font-size: 17px;
 }
 
+.space-top {
+  margin-top: 30px;
+}
+
 .space-right {
-  margin-right: 20px;
+  margin-right: 50px;
+}
+
+.space {
+  margin-left: 2em;
+}
+
+.style-box {
+  margin-top: 20%;
 }
 
 a:hover {
@@ -24,11 +37,10 @@ a:hover {
 
 .container-fluid {
   background-color: white;
-  padding-bottom: 20px;
 }
 
 .navbar-default .navbar-brand {
-  margin: 25px; 
+  margin: 35px;
 }
 
 .navbar-default .navbar-toggle {
@@ -40,6 +52,7 @@ a:hover {
   background-size: auto;
   background-position: center;
   height: 100vh;
+  background-position: center bottom;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100%;
@@ -49,10 +62,19 @@ a:hover {
   background: #f7b417;
   box-sizing: border-box;
   float: right;
-  height: 400px;
   padding: 40px;
   margin-top: 150px;
   width: 500px;
+}
+
+.box-logo {
+  position: relative;
+  bottom: 4px;
+}
+
+.box-logo,
+.text-logo {
+  display: inline-block;
 }
 
 .btn-primary {
@@ -61,38 +83,86 @@ a:hover {
   border: none;
 }
 
-/* Ceudoclase para los br de la primera seccion */
+.first-secction-desktop {
+  margin-left: 64%;
+  padding: 0.6em 0 0.6em 1.2em;
+  background: #f7b417;
+  box-sizing: border-box;
+  float: right;
+  padding: 40px;
+  margin-top: 150px;
+  width: 500px;
+}
+
+.logo {
+  width: 60%;
+  margin: 15px 0 0 10px;
+}
+
+.logo2 {
+  width: 80%;
+  margin: 40px 0px 0px 10px;
+}
+
+.row {
+  margin-right: 0;
+}
+
+
+/* seudoclase para los br de la primera seccion */
+
 p.line::before {
   display: inline-block;
   height: 1px;
-  margin: 20px 70px 10px 0px;
+  margin-right: 60px;
   content: " ";
   background-color: white;
-  width: 100px;
+  width: 120px;
 }
 
-/* Ceudoclase para los br de la primera seccion */
+
+/* seudoclase para los br de la primera seccion */
+
 p.line::after {
   display: inline-block;
   height: 1px;
-  margin: 20px 70px 10px 0px;
+  margin-left: 60px;
   content: " ";
   background-color: white;
-  width: 100px;
+  width: 120px;
 }
+
 .jumbotron {
-  background-color: #f7b617;
+  background-color: #f7b417;
+  width: 100%;
+  height: 100%;
 }
+
 .second-box {
   border: 1px solid white;
+  margin: 1em;
+  padding: 2em;
+}
+
+.second-box-desktop {
+  border: 1px solid white;
   border-left: none;
-  width: 170vh;
-  height: 100vh;
-  display: inline-block;
-  margin-top: 5px;
-  margin-left: -110px;
-  /* padding: 100px; */
-  color: white;
+  /* margin: 1em; */
+  padding: 2em;
+  height: 75vh;
+  width: 180vh;
+}
+
+.img-mobile {
+  width: 40%;
+  height: 65vh;
+  display: block;
+  margin: auto;
+}
+
+.img-mobile2 {
+  display: block;
+  margin: auto;
 }
 
 .third-secction {
@@ -106,7 +176,7 @@ p.line::after {
 }
 
 .third-box {
-  background: rgba(0, 0, 0, 0.288);
+  background: rgba(0, 0, 0, 0.356);
   /* box-sizing: border-box; */
   float: right;
   height: 80vh;
@@ -115,4 +185,18 @@ p.line::after {
   /* margin-top: 150px; */
   width: 500px;
   color: white;
+}
+
+.white {
+  color: white;
+  font-weight: 900;
+}
+
+.white2 {
+  color: white;
+  font-weight: 600;
+}
+
+.weight {
+  font-weight: 900;
 }

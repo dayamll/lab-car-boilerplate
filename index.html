@@ -16,10 +16,10 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-default">
+    <nav class="navbar-default">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header pull-left">
+        <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
             aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
@@ -27,15 +27,14 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
+          <a class="navbar-brand align-middle" href="#"></a>
+          <img class="img-responsive space-top" src="assets/images/logoForma.png" alt="Brand">
         </div>
-        <img class="navbar-brand" src="assets/images/logoForma.png" alt="">
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav pull-right">
             <li>
-              <a href="#">Viaja
-                <!-- <span class="sr-only">(current)</span> -->
-              </a>
+              <a href="#">Viaja</a>
             </li>
             <li>
               <a href="#">Conduce</a>
@@ -51,62 +50,70 @@
     </nav>
   </header>
   <section class="first-secction">
-    <div class="first-box">
-      <h2>Disfruta del viaje
-        <br> Eres dueño de tu tiempo
-        <br>
-      </h2>
-      <span>
-        <h3>Viaja con
-          <img src="assets/images/logoBlanco.png" alt="">
-        </h3>
-      </span>
+    <div class="row first-box style-box hidden-md hidden-lg">
+      <h1 class="white">Comienza a viajar</h1>
+      <h1 class="text-logo white">con</h1>
+      <div class="box-logo">
+        <img class="logo2 img-responsive" src="assets/images/logoBlanco.png" alt="">
+      </div>
       <br>
-      <button class="btn btn-primary btn-lg" type="button">REGISTRATE</button>
-      <p class="line">o bien</p>
-      <button class="btn btn-primary btn-lg" type="button">Conviertete en un conductor</button>
+      <button class="btn btn-primary btn-lg weight" type="button">Descarga la app</button>
     </div>
-  </section>
-  <section>
-    <div class="jumbotron">
-      <div class="container">
-        <span class="second-box first-text">
-            <p>
-              <img src="assets/images/iPhone6Plus.png" alt="">
-              <h2>Descarga la nueva app</h2>
-              La version actualizada de LabCar
-              <br> esta llena de nuevas funciones para
-              <br> llegar a donde quieras aun mas facil
-              <br> y rapido.
-              <br>
-              <br> Con solo tocar un boton, un auto
-              <br> llega justo a tu ubicacion. Subete
-              <br> y no te preocupes: tu conductor sabe
-              <br> exactamente a donde ir.
-            </p>
-          </span>
+
+
+    <div class="first-secction-desktop hidden-xs hidden-md">
+      <h2 class="white">Disfruta del viaje </h2>
+      <h2 class="white">Eres dueño de tu tiempo</h2>
+      <div class="logo-section">
+        <h3 class="text-logo white">Viaja con </h3>
+        <div class="box-logo">
+          <img class='logo img-responsive' src="assets/images/logoBlanco.png" alt="">
         </div>
       </div>
-  </section>
-  <!-- <section>
-    <div>
-      <span>
-        <p class="f">
-          <img src="assets/images/iPhone6Plus.png" alt="">
-          <h2>Descarga la nueva app</h2>
-          La version actualizada de LabCar
-          <br> esta llena de nuevas funciones para
-          <br> llegar a donde quieras aun mas facil
-          <br> y rapido.
-          <br>
-          <br> Con solo tocar un boton, un auto
-          <br> llega justo a tu ubicacion. Subete
-          <br> y no te preocupes: tu conductor sabe
-          <br> exactamente a donde ir.
-        </p>
-      </span>
+      <button class="btn btn-primary btn-lg weight" type="button">Registrate</button>
+      <p class="line white">o bien</p>
+      <button class="btn btn-primary btn-lg weight" type="button">Conviertete en conductor</button>
     </div>
-  </section> -->
+  </section>
+
+  <section class="jumbotron container">
+    <div class="hidden-md hidden-lg">
+      <div class="row">
+        <div class="col-xs-11 second-box">
+          <h3 class="white text-center">La nueva app</h3>
+          <div>
+            <img class="img-mobile img-responsive" src="assets/images/iPhone6Plus.png" alt="iphone">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <p class="white2 space">Llega a tu destino aún más rápido</p>
+      </div>
+    </div>
+
+
+    <div class="row second-box-desktop hidden-xs hidden-md">
+      <div class="">
+        <div class="col-xs-12 col-md-6">
+          <img class="img-mobile2" src="assets/images/iPhone6Plus.png" alt="iphone">
+        </div>
+        <div class="col-xs-12 col-md-6">
+            <h2 class="white">Descarga la nueva app</h2>
+            <br>
+            <p class="white2">La version actualizada de LabCar
+            <br> esta llena de nuevas funciones para
+            <br> llegar a donde quieras aun mas facil
+            <br> y rapido.
+            <br>
+            <br> Con solo tocar un boton, un auto
+            <br> llega justo a tu ubicacion. Subete
+            <br> y no te preocupes: tu conductor sabe
+            <br> exactamente a donde ir.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
   <section class="third-secction">
     <div class="third-box">
       <p>
@@ -121,22 +128,19 @@
     <h3>Tarifas</h3>
     <p>Consulta las tarifas LabCar aqui</p>
     <span>
-      <img src="assets/images/shape.png" alt="">
+      <img class="img-responsive" src="assets/images/shape.png" alt="">
       <input type="text" placeholder="Ingrese su punto de partida">
     </span>
     <!--  hidden xs  hidden md flex   -->
     <br>
     <span>
-      <img src="assets/images/shape2.png" alt="">
+      <img class="img-responsive" src="assets/images/shape2.png" alt="">
       <input type="text" placeholder="Ingrese su destino">
-    </span>
-    <span>
-      <img src="assets/images/" alt="">
     </span>
   </section>
   <section>
     <span>
-      <img src="assets/images/logoBlanco.png" alt="">
+      <img class="img-responsive" src="assets/images/logoBlanco.png" alt="">
     </span>
     <span>
       <ul>
@@ -162,8 +166,8 @@
       </ul>
     </span>
     <span>
-      <img src="assets/images/appstore.png" alt="">
-      <img src="assets/images/enBadgeWebGeneric.png" alt="">
+      <img class="img-responsive" src="assets/images/appstore.png" alt="">
+      <img class="img-responsive" src="assets/images/enBadgeWebGeneric.png" alt="">
     </span>
     <br>
     <span>

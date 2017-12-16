@@ -332,3 +332,37 @@ footer li {
 .inline-down {
   margin-top: 268px;
 }
+
+/* modals */
+
+.small {
+  width: 180px;
+  height: 150px;
+}
+
+.img-center {
+  text-align: center;
+}
+
+.box-form{
+  background-color: #30c1b8;
+  height: 70vh;
+}
+
+.modal-footer {
+  border-top: none;
+  text-align: center;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+.btn-default {
+  background-color: rgb(233, 162, 62);
+  border: none;
+}
+
+.btn-default:hover {
+  background-color: rgb(238, 224, 24);
+  border: none;
+}

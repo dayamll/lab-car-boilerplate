@@ -154,14 +154,14 @@ p.line::after {
   width: 180vh;
 }
 
-.img-mobile {
+.mobile {
   width: 40%;
   height: 65vh;
   display: block;
   margin: auto;
 }
 
-.img-mobile2 {
+.mobile2 {
   display: block;
   margin: auto;
 }
@@ -170,7 +170,7 @@ p.line::after {
   background-image: url(../assets/images/conduce.jpg);
   background-position: center;
   height: 70vh;
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   width: 100%;
@@ -187,11 +187,11 @@ p.line::after {
   padding: 70px;
 }
 
-.text-3{
+.text-3 {
   padding: 4em 0 3em 3em;
 }
 
-.btn-section-3{
+.btn-section-3 {
   background-color: #f7b417;
 }
 
@@ -218,11 +218,6 @@ p.line::after {
   font-weight: 600;
 }
 
-/* .white3 {
-  color: white;
-  font-weight: 600;
-} */
-
 .size {
   font-size: 18px;
 }
@@ -233,23 +228,22 @@ p.line::after {
 
 .forth-section {
   background-color: #f7b417;
-  padding:30px 8px;
-  height: 160vh;
+  padding: 30px 8px;
+  /* height: 160vh; */
   padding: 25px;
 }
 
-.forth-section-desktop {
-  background-color: #f7b417;
-  padding:30px 8px;
-  height: 50vh;
-  padding: 70px;
-}
-
-.direction{
+.direction {
   margin-bottom: 2em;
 }
 
-.text-4{
+.forth-desktop {
+  background-color: #f7b417;
+  padding: 30px 8px;
+  padding: 70px;
+}
+
+.text-4 {
   margin-left: 15px;
   border: 1px solid white;
   border-radius: 10px;
@@ -257,7 +251,7 @@ p.line::after {
   display: inline-block;
 }
 
-.text-4-desktop{
+.text-4-desktop {
   margin-left: 15px;
   border: 1px solid white;
   border-radius: 10px;
@@ -266,7 +260,7 @@ p.line::after {
   width: 350px;
 }
 
-.btn-white{
+.btn-white {
   margin-top: 1em;
   background-color: white;
 }
@@ -294,4 +288,47 @@ p.line::after {
 
 .space-button2 {
   margin-left: 15vh;
+}
+
+
+/* footer */
+
+footer {
+  background-color: #2B2B2B;
+  width: 100%;
+}
+
+footer li {
+  padding-bottom: 1em;
+  list-style: none;
+}
+
+.logo-footer {
+  padding-bottom: 1em;
+  width: 100%;
+}
+
+.logo-white {
+  padding: 1em;
+}
+
+.line-text {
+  text-align: left;
+}
+
+.box-footer {
+  padding: 5em;
+}
+
+.box-logos {
+  top: 11em;
+  position: absolute;
+}
+
+.logo-footer {
+  width: 80%;
+}
+
+.inline-down {
+  margin-top: 268px;
 }

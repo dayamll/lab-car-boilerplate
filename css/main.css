@@ -335,9 +335,12 @@ footer li {
 
 /* modals */
 
+/* viaja */
+
 .small {
   width: 180px;
   height: 150px;
+  margin: 20px;
 }
 
 .img-center {

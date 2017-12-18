@@ -33,11 +33,11 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav pull-right">
-            <li data-toggle="modal" data-target="#myModal">
-              <a href="#">Viaja</a>
+            <li>
+              <a data-toggle="modal" data-target="#myModal" href="#">Viaja</a>
             </li>
             <li>
-              <a href="#">Conduce</a>
+              <a data-toggle="modal" data-target="#myModal2"  href="#">Conduce</a>
             </li>
             <li class="space-right">
               <a href="#">Inicia Sesion</a>
@@ -48,8 +48,8 @@
       </div>
       <!-- /.container-fluid -->
     </nav>
-    <!-- Modal -->
-    <div class="modal fade img-center" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <!-- Modal viaja-->
+    <div class="modal fade img-center" id="myModal" tabindex="-1" role="document" aria-labelledby="myModalLabel">
       <div class="modal-dialog" role="document">
         <div class="modal-content box-form">
           <div class="modal-header">
@@ -62,10 +62,9 @@
             <form class="form-inline">
               <div class="form-group">
                 <label class="sr-only" for="exampleInputAmount">Username</label>
-                <div class="">
                   <div class="input-group">
                     <div class="input-group-addon">
-                        <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                      <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
                     </div>
                     <input type="text" class="form-control" id="exampleInputAmount" placeholder="Username">
                   </div>
@@ -73,19 +72,59 @@
                   <br>
                   <div class="input-group">
                     <div class="input-group-addon">
-                        <span class="glyphicon glyphicon-lock" aria-hidden="true"></span>
+                      <span class="glyphicon glyphicon-lock" aria-hidden="true"></span>
                     </div>
                     <input type="text" class="form-control" id="exampleInputAmount" placeholder="pasword">
                   </div>
-                </div>
             </form>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Login</button>
+              <button type="button" class="btn btn-default letter-black" data-dismiss="modal">Login</button>
             </div>
           </div>
         </div>
       </div>
+     <!-- inicio modal conviertet en conductor -->
+   <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog " role="document">
+      <div class="modal-content modal-reg">
+        <div class="modal-header modal-head center">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form class="form-horizontal">
+            <label>Tienes vehiculos de 4 puertas?</label>
+            <select class="form-control">
+              <option value="">Sí</option>
+              <option value="">No</option>
+            </select><br>
+            <label>Marca</label>
+            <select class="form-control">
+              <option value="">Elige la marca de vehiculo</option>
+            </select>
+            <p class="help-block">¿No ves tu vehículo en la lista Envía un correo electronico a <br><a href="mailto:#">sociosmdv@uber.com</a></span></p> <br>
+            <label>Modelo</label>
+            <select class="form-control">
+              <option value="">Modelo1</option>
+            </select><br>
+            <label>Año</label>
+            <select class="form-control">
+              <option value="">2017</option>
+            </select><br>
+            <label>Número de la Matrícula</label>
+            <select class="form-control">
+              <option value="">Número de la Matrícula</option>
+            </select>
+            <p >La informacionde la matrícula ayuda a los clientes a identificar <br> tu vehículo</p>
+            <button type="button" class="btn btn-info btn-lg btn-block">ENVIAR</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- fin de modal convierte en conductor -->
   </header>
   <section class="first-secction">
     <div class="row first-box style-box hidden-sm hidden-md hidden-lg">
